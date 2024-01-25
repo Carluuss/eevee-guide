@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Titan+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Righteous", sans-serif;
+
+
+}
+
+#background {
+    background-color: #BF8B5E;
+}
+
+
+.carousel-item>img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.container {
+
+    background-color: #eec29b;
+
+
+    border-radius: 15px;
+}
+
+.logo {
+    width: 60px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+p {
+    padding: 10px;
+    font-weight: normal;
+}
+
+#aba7 {
+    color: #fff;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card > img{
+    padding: 5px;
+    display: flex;
+    align-self: center;
+    width: 200px;
+}
+
+
+@media screen and (min-width: 641px) and (max-width:1023px){
+
+    .containerCss{
+        
+    }
+}
